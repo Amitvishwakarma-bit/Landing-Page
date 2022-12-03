@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/* navElements design */
+.topnav{
+    display: flex;
+}
+/* topnav left */
+.topnavLeft{
+    font-family: 'Baloo Bhaina 2', cursive;
+    width: 75%;
+    display: flex;
+    font-size: 1rem;
+}
+.topnavLeft img{
+    width: 30px;
+    height: 20px;
+    
+}
+.topnavLeft i{
+    font-size: 0.9rem;
+}
+.topnavLeft div{
+    margin: 10px;
+    font-size: 1rem;
+   
+}
+#image{
+    margin: 10px;
+}
+/* topnav right */
+.topnavRight{
+    width: 25%;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.topnavRight div{
+    margin: 10px;
+}
+.topnavRight div i{
+    margin: 0px 5px;
+
+}
+/* bottom navigation */
+.bottomnav{
+    overflow: auto;
+}
+/* bottom navigation left design */
+.bottomnav .bottomnavLeft{
+    float: left;
+    margin: 25px 20px;
+    font-family: 'Titan One', cursive;
+    font-size: 2rem;
+}
+.bottomnav .bottomnavLeft i{
+    color: #e75b5b;
+    font-size: 2.5rem;
+}
+/* bottom nav right side designing */
+.bottomnavRight{
+    margin-right: 25px;
+    float: right;
+}
+.bottomnavRight ul{
+    margin: 25px 0px;
+    display: flex;
+}
+.bottomnavRight ul li{
+    padding: 2px 10px;
+    margin: 5px 2px;
+    list-style: none;
+}
+.bottomnavRight ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.bottomnavRight ul li i{
+    font-size: 0.8rem;
+    margin: 10px 0px;
+}
+/* home section designing  */
+.container1{
+    overflow: auto;
+    background-color: #f1c8b7;
+}
+.container1 #home-text{
+    color: #545252;
+    margin: 10% 5%;
+    float: left;
+}
+#home-text h1{
+    margin: 15px 0px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+#home-text input[type="button"]{
+    background-color: red;
+    border: none;
+    border-radius: 1px;
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+#home-text input[type="button"]:hover{
+    opacity: 0.8;
+}
+#img-section{
+    float: right;
+    background-color: #ebb69f;
+    border-radius: 45%;
+}
+
+/* section box with male and female design */
+section.box1{
+    display: flex;
+    width: 90vw;
+    margin: 50px auto;
+}
+div.boxes{
+    display: flex;
+    width: 50%;    
+}
+#box1{
+    margin-right: 20px;
+    background-color: pink;
+}
+#box2{
+    background-color: skyblue;
+}
+div.boxes .boxexText{
+    color: #545252;
+    display: inline-block;
+    margin: 15% 0%;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+div.boxes .boxexText h4{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    font-family: 'Heebo', sans-serif;
+}
+#manage{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+
+/* product design */
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px ;
+}
+
+/* product section design */
+section.products .select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+section.products .select div{
+    cursor: pointer;
+    margin: 10px 20px;
+}
+section.products .select div:hover{
+    opacity: 0.8;
+}
+section.products .select div span{
+    color: red;
+}
+section.products .productDetailsRows{
+    display: flex;
+}
+.productDetails{
+    color: #545252;
+    margin: 20px;
+    width: 25%;
+}
+.productDetails .productImg{
+    background-color: #eaf1f4;
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+
+}
+.productDetails .productImg img{
+    width: 100%;
+    height: 100%;
+
+}
+.productDetails h2{
+    color: black;
+    font-size: 1.3rem;
+    margin: 10px;
+    
+}
+.productDetails span{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.productDetails .i{
+    margin: 0px 10px;
+}
+.productDetails i{
+    color: gold;
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+.productDetails h6{
+    text-decoration: line-through;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+/* summer collection design */
+section.summerColletion{
+    margin: 5vh 0px;
+}
+div#box5{
+    background-color: rgb(225, 242, 248);
+    display: flex;
+}
+div#box5 .boxexText{
+    font-weight: bold;
+    padding: 10%;
+    
+}
+div#box5 .boxexText span{
+    color: red;
+    
+}
+div#box5 .boxexText h2{
+    margin: 15px 0px;  
+    font-size: 2.5rem;  
+
+}
+div#box5 .boxexText input[type="button"]{
+    margin: 15px 0px;
+    background-color: red;
+    border: none;
+    border-radius: 1px;
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+div#box5 .boxexText input[type="button"]:hover{
+    opacity: 0.8;
+}
+section.products .select12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+/* client feedback review */
+section.feedback .feedbackContainer{
+    margin: 50px 0px;
+    padding: 30px 0px;
+    background-color: #f0e3e5;
+    height: 60vh;
+    
+}
+.feedbackContainer h1,p{
+    margin: 30px;
+    text-align: center;
+    font-size: 2rem; 
+}
+.feedbackContainer p{
+    font-size: 1rem; 
+}
+.feedbackContainer .parentClass{
+    margin: 50px 0px;
+    display: flex;
+
+}
+.feedbackContainer .parentClass .caret{
+    width: 30%;
+}
+.feedbackContainer .parentClass .caret i{
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 20px 60%;
+    color: #545252;
+}
+#space{
+    margin: 20px 60% 20px 40%;
+
+}
+#userFeedback{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+
+}
+#userFeedbackImg{
+    width: 70px;
+    height: 70px;
+}
+#userFeedbackImg img{
+    width: 100%;
+    height: 100%;
+}
+#userFeedbackText{
+    font-weight: bold;
+    margin-left: 20px;
+}
+#userFeedbackText span{
+    font-weight: normal;
+    color: red;
+}
+
+/* feature design */
+section.feature{
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featureDiscription{
+    text-align: center;
+    width: 33%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.featureDiscription div{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: black;
+    
+}
+.featureDiscription p{
+    font-size: 1rem;
+    color: #888585;
+    margin: 5px;
+    font-weight: normal;
+
+}
+
+/* Subscribe section design */
+section.subscribeSection{
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    background-color: #f24552;
+    margin: 40px 0px;
+    overflow: auto;
+}
+section.subscribeSection .subscribeLeft{
+    float: left;
+    color: white;
+    font-weight: bold;
+
+}
+section.subscribeSection .subscribeRight{
+    position: relative;
+    float: right;
+
+}
+.subscribeRight input[type="text"]{
+    padding: 7px;
+    font-size: 0.8rem;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 100px;
+
+}
+.subscribeRight input[type="button"]{
+    position: absolute;
+    right: 10px;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    border-radius: 1px;
+    font-size: 0.7rem;
+    color: white;
+    cursor: pointer;
+    padding: 9px 20px;
+
+}
+.subscribeRight input[type="button"]:hover{
+    opacity: 0.8;
+}
+
+/* footer section design */
+footer{
+    background-color: #383636;
+    color: white;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    height: 50vh;
+    margin: 50px 0px 0px 0px;
+}
+.footerElements1{
+    width: 25%;
+}
+#paragraphMargin{
+    margin: 20px 0px;
+}
+#bottomCart{
+    margin: 10px 0px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.iconsFooter {
+    margin: 20px 0px;
+}
+.iconsFooter i{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.footerElements2{
+    width: 17%;
+}
+.footerElements2 h2{
+    font-size: 1.4rem;
+    margin: 10px 0px;
+}
+.footerElements2 ul li{
+    margin: 10px 0px;
+    list-style: none;
+    cursor: pointer;
+}
+.footerElements3{
+    width: 24%;
+}
+.footerElements3 li{
+    margin: 20px 0px;
+    list-style: none;
+
+}
+.footerElements3 li i{
+    font-size: 1.2rem;
+    margin-right: 10px;    
+
+}
+/* bottom booter design */
+.footer2{
+    overflow: auto;
+    padding: 20px;
+    color: white;
+}
+.footer2 .leftFloat{
+    float: left;
+}
+.footer2 .rightFloat{
+    float: right;
+}
+.footer2 .rightFloat i{
+    margin: 0px 2px;
+    font-size: 2rem;
+    cursor: pointer;
+
+}

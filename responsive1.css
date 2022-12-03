@@ -1,0 +1,108 @@
+.bottomnav .bottomnavLeft i {
+    font-size: 2rem;
+}
+.bottomnav .bottomnavLeft {
+    margin: 25px 0px 25px 20px;
+    font-size: 1.5rem;
+}
+.bottomnavRight ul li {
+    padding: 2px 6px;
+    margin: 5px 0px;
+}
+
+.bottomnavRight ul li a {
+    font-size: 0.8rem;
+}
+
+#img-section {
+    border-radius: 51%;
+    width: 42%;
+    height: 66%;
+    margin: 5% 0%;
+}
+#img-section img{
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+}
+.box-img1{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+}
+
+.box-img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+div.boxes .boxexText {
+    margin: 20% 5%;
+    font-size: 1rem;
+}
+
+div.boxes .boxexText h4 {
+    font-size: 1.2rem;
+    margin: 10px 0px;
+}
+#heading{
+    font-size: 2rem;
+}
+.productDetails{
+    font-size: 0.9rem;
+}
+.productDetails .productImg {
+    width: 90%;
+    height: 65%;
+}
+.productDetails i{
+    font-size: 0.8rem;
+}
+
+.productDetails h2 {
+    font-size: 1rem;
+    margin: 10px;
+}
+section.summerColletion {
+    margin: 10vh 0px;
+}
+.box-img-womans{
+    width: 40%;
+    height: 90%;
+    margin: auto 5%;
+}
+.box-img-womans img {
+    width: 100%;
+    height: 100%;
+}
+div#box5 .boxexText h2 {
+    font-size: 1.5rem;
+}
+section.products .select12{
+    font-size: 2rem;
+}
+/* footer section */
+#bottomCart{
+    font-size: 1.5rem;
+}
+#paragraphMargin{
+    margin: 10px;
+    font-size: 0.9rem;
+}
+.iconsFooter{
+    font-size: 0.9rem;
+}
+.footerElements2 h2{
+    margin: 5px 0px;
+    font-size: 1.2rem;
+}
+.footerElements2 ul li{
+    margin: 5px 0px;
+}
+.footerElements3 h2{
+    font-size: 1.2rem;
+}
+.footerElements3 li{
+    margin: 10px 0px;
+    font-size: 0.9rem;
+}
